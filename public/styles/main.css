@@ -1,0 +1,58 @@
+h1{
+    font-family: "Sixtyfour Convergence", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "BLED" 0,
+    "SCAN" 0,
+    "XELA" 0,
+    "YELA" 0;
+}
+
+.card{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-content: center;
+    width: 48vh;
+    text-align: center;
+}
+
+.picture{
+    background-size: 64vh;
+    background-position: center;
+    height: 64vh;
+    width: 100vh
+}
+
+.common{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+
+.questions{
+    width: 100vh;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+}
+
+.solution{
+    width: 48vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+button{
+    align-items: center;
+}
+
+.solution>button{
+    width: 120px;
+}
